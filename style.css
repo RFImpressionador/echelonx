@@ -14,9 +14,11 @@ body {
     text-align: center;
 }
 .logo {
-   max-width: 350px;
-  width: 30vw; /* ocupa 30% da largura da tela */
+   max-width: 300px;     /* aumenta o tamanho máximo */
+  width: 40vw;           /* ocupa até 40% da largura da tela */
+  min-width: 180px;      /* garante boa visualização em telas pequenas */
   height: auto;
+  margin-bottom: 20px;   /* espaço abaixo da logo */
 }
 .title {
     font-size: 2em;
