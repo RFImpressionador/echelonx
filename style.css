@@ -14,8 +14,9 @@ body {
     text-align: center;
 }
 .logo {
-    width: 100px;
-    animation: pulse 2s infinite;
+   max-width: 200px;
+  width: 30vw; /* ocupa 30% da largura da tela */
+  height: auto;
 }
 .title {
     font-size: 2em;
