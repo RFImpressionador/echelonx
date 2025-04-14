@@ -1,18 +1,45 @@
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EchelonX</title>
-    <link rel="stylesheet" href="style.css">
+    <title>EchelonX - Seletor de Tema</title>
+    <style>
+        body {
+            background-color: #0a0f1c;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 2rem;
+        }
+        img {
+            max-width: 400px;
+            height: auto;
+            margin-top: 2rem;
+            border: 2px solid #1f2937;
+            border-radius: 8px;
+        }
+        select {
+            padding: 0.5rem;
+            font-size: 1rem;
+        }
+    </style>
 </head>
 <body>
-    <div class="loading-screen">
-        <img src="logo.png" alt="Logo EchelonX" class="logo" />
-        <h1 class="title">EchelonX</h1>
-        <p class="subtitle">Inteligência Tática em Tempo Real.</p>
-    </div>
-    <script src="script.js"></script>
+    <h1>Escolha o visual do EchelonX</h1>
+    <select id="themeSelector">
+        <option value="interface-botoes.png">Interface com Botões</option>
+        <option value="visual-classico.png">Visual Clássico</option>
+    </select>
+    <br>
+    <img id="themePreview" src="interface-botoes.png" alt="Visual EchelonX">
+
+    <script>
+        const selector = document.getElementById("themeSelector");
+        const preview = document.getElementById("themePreview");
+        selector.addEventListener("change", function () {
+            preview.src = this.value;
+        });
+    </script>
 </body>
 </html>
