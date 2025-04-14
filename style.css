@@ -8,6 +8,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
+/* Vamos definir a imagem como plano de fundo Login */
+  background-image: url('logo.png');
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #0d1b1e; /* cor escura de fundo */
+}
 }
 .container {
     text-align: center;
