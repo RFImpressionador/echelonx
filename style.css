@@ -1,42 +1,67 @@
 
 body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    color: #00ffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    
-/* Vamos definir a imagem como plano de fundo Login */
-  background-image: url('logo.png');
-  background-size: contain;
-  background-position: top center;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('visual-classico.png');
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-color: #0d1b1e; /* cor escura de fundo */
-}
+  color: #00ffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container {
-    text-align: center;
+  text-align: center;
 }
 .logo {
-    width: 120px;
-    margin-bottom: 20px;
+  width: 130px;
+  margin-bottom: 10px;
 }
-input, button {
-    display: block;
-    margin: 10px auto;
-    padding: 10px;
-    width: 250px;
-    border: none;
-    border-radius: 4px;
+.titulo {
+  font-size: 2.5em;
+  color: #00ffff;
+  margin: 0;
 }
-button {
-    background-color: #00bcd4;
-    color: white;
-    cursor: pointer;
+.subtitulo {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #00e0e0;
 }
-button:hover {
-    background-color: #008c9e;
+.login-box {
+  margin-top: 30px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00ffff;
+}
+.login-box input {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.login-box button {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #00ffff;
+  font-weight: bold;
+  border: 1px solid #00ffff;
+  box-shadow: 0 0 10px #00ffff;
+  cursor: pointer;
+}
+.login-box .secundario {
+  background-color: transparent;
+  color: #00e0e0;
+  border-color: #00e0e0;
+  box-shadow: 0 0 10px #00e0e0;
 }
