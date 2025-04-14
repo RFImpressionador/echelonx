@@ -2,9 +2,9 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
+  
   background-image: url('visual-classico.png');
   background-size: cover;
-  background: rgba(0, 0, 0, 0.7);
   background-position: center;
   background-repeat: no-repeat;
   color: #00ffff;
@@ -15,6 +15,7 @@ body {
 }
 .container {
   text-align: center;
+  background: rgba(0, 0, 0, 0.7);
 }
 .logo {
   width: 130px;
