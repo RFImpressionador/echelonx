@@ -2,7 +2,6 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  
   background-image: url('visual-classico.png');
   background-size: cover;
   background-position: center;
@@ -12,13 +11,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgba(0, 0, 0, 0.7);
 }
 .container {
   text-align: center;
-  background: rgba(0, 0, 0, 0.7);
+ 
 }
 .logo {
-  width: 130px;
+  width: 280px;
   margin-bottom: 10px;
 }
 .titulo {
